@@ -1,0 +1,83 @@
+<html>
+<head>
+ <title>BANJARNEGARA GILAR-GILAR</title>
+ <link rel="stylesheet" type="text/css"
+ media="all" href="style77.css">
+</head>
+<body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.21.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.21.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+ <div id="layout">
+ <div id="header">
+ <img width="1330"height="600"src="banjarnegara.jpeg" class="header">
+ </div>
+ <div id="menu">
+ <ul>
+ <li><a href="angieCoding.html">Beranda</a></li>
+ <li><a href="profil.html">Tentang Saya</a></li>
+ <li><a href="kontak.html">Kontak Kami</a></li>
+ </ul>
+ </div>
+ <div id="runningtext">
+ <marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" direction="left">
+ Selamat Datang di Website Saya
+ </marquee>
+ </div>
+ <div id="sidebar">
+ <div class="widged">
+ <h1 class="judulwidged">Posting Teratas</h1>
+ <ul>
+ <li> <a href="posting1.html">BANJARNEGARA</a> </li>
+ <li> <a href="dieng1.html">SEJARAH & WISATA DIENG BANJARNEGARA</a> </li>
+ 
+ <li> <a href="https://www.adventuretravel.co.id/blog/dieng-dari-asal-usul-hingga-keistimewaannya
+ "target="blank">DIENG BANJARNEGARA</a></li>
+ <li> <a href="posting2.html"> GEOGRAFI & TOPOGRAFI</a> </li>
+ </ul>
+ </div>
+ </div>
+ <div id="isi">
+ <div class="isipostingall">
+ <h2> Tentang Saya </h2><br>
+ <img width="200"height="100"src="profil.jpg" class="rounded-circle">
+ <table class="table">
+ <tr>
+ <td> Nama Lengkap </td>
+ <td> : Anggi Satrio</td>
+ </tr>
+ <tr>
+ <td> Jenis Kelamin </td>
+ <td> : Laki-laki </td>
+ </tr>
+ <tr>
+ <td> Agama </td>
+ <td> : Islam </td>
+ </tr>
+ <tr>
+ <td> Tempat/Tanggal Lahir </td>
+ <td> : Banjarnegara,12 February 1995 </td>
+ </tr>
+ <tr>
+ <td> Alamat </td>
+ <td> : Rejasa RT.02 RW.03 </td>
+ </tr>
+<tr>
+ <td> Program Studi</td>
+ <td> :Coding,Teknik  Komputer & Jaringan</td>
+ </tr>
+<tr>
+ <td> No.HP </td>
+ <td> : 087825222253</td>
+ </tr>
+ <tr>
+ </table>
+ </div>
+ </div>
+ <div id="footer"> &copy 2020, by Angie </div>
